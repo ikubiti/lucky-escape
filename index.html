@@ -11,7 +11,7 @@
   <body>
     <header>
       <h1>The Lucky Escape Visitor's Lounge</h1>
-      <nav>
+      <nav id="navmenu">
         <a href="https://github.com/ikubiti">Github</a>
         <a href="mailto:ikubiti@icloud.com">Email</a>
         <a href="#contactus">Contact Us</a>
@@ -19,8 +19,8 @@
     </header>
 
     <main>
-      <section>
-        <h2>A Place to reconnect Body and Mind</h2>
+      <section id="serene" class="myspace">
+        <h2>A Place to Reconnect Your Body and Mind</h2>
         <figure>
           <!-- Image obtained from https://pixabay.com/images/search/beach/ -->
           <img
@@ -31,18 +31,19 @@
         </figure>
       </section>
 
-      <section>
-        <form>
+      <section id="contactus" class="myspace">
+        <h2>Submit Your Contact Information</h2>
+        <form class="alignleft">
           <p>
-            <label>Customer name: <input /></label>
+            <label><span>Customer name:</span> <input /></label>
           </p>
           <p>
-            <label>Email address: <input type="email" /></label>
+            <label><span>Email address:</span> <input type="email" /></label>
           </p>
           <p>
             <label>Telephone: <input type="tel" /></label>
           </p>
-          <fieldset>
+          <fieldset class="alignleft">
             <legend>Preferred Contact Method</legend>
             <p>
               <label> <input type="radio" name="preferred" /> Call </label>
@@ -60,7 +61,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="myspace">
       <address>
         For more information, please contact
         <a href="mailto:ikubiti@icloud.com">Isoyor Kubiti</a>
